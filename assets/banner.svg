@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.05); }
+    }
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(-12px) translateX(6px); }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes radarSweep {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .floating-card { animation: floatParticle 6s ease-in-out infinite; }
+    .floating-card-alt { animation: floatParticle 7s ease-in-out 1s infinite; }
+    .pulsing-grid { animation: pulseGlow 4s ease-in-out infinite; transform-origin: center; }
+    .flow-line { stroke-dasharray: 8 8; animation: dashMove 3s linear infinite; }
+    .title-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 54px; fill: #ffffff; }
+    .subtitle-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+    .badge-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #38bdf8; }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="320" rx="16" fill="url(#glowGrad)" />
+
+  <!-- Animated Decorative Background Grid & Flow Elements (BEHIND TEXT) -->
+  <g class="pulsing-grid">
+    <circle cx="1050" cy="160" r="140" fill="none" stroke="#4f46e5" stroke-opacity="0.15" stroke-width="2" />
+    <circle cx="1050" cy="160" r="90" fill="none" stroke="#818cf8" stroke-opacity="0.25" stroke-width="1.5" />
+    <circle cx="1050" cy="160" r="40" fill="none" stroke="#c084fc" stroke-opacity="0.35" stroke-width="1" />
+  </g>
+
+  <!-- Connecting Animated Lines -->
+  <path d="M 700 80 Q 850 160 1050 160" fill="none" stroke="url(#accentGrad)" stroke-width="2" class="flow-line" opacity="0.6" />
+  <path d="M 720 240 Q 880 160 1050 160" fill="none" stroke="#38bdf8" stroke-width="2" class="flow-line" opacity="0.5" />
+
+  <!-- Dynamic Background Floating Cards & Pills (Right Side, lower opacity to avoid clutter) -->
+  <g class="floating-card" transform="translate(780, 50)">
+    <rect width="160" height="42" rx="10" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+    <circle cx="24" cy="21" r="8" fill="#10b981" />
+    <text x="42" y="26" class="badge-text" fill="#e2e8f0">SOC 2 Type II</text>
+  </g>
+
+  <g class="floating-card-alt" transform="translate(970, 75)">
+    <rect width="150" height="42" rx="10" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+    <circle cx="24" cy="21" r="8" fill="#3b82f6" />
+    <text x="42" y="26" class="badge-text" fill="#e2e8f0">ISO 27001</text>
+  </g>
+
+  <g class="floating-card" transform="translate(740, 215)">
+    <rect width="170" height="42" rx="10" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+    <circle cx="24" cy="21" r="8" fill="#8b5cf6" />
+    <text x="42" y="26" class="badge-text" fill="#e2e8f0">NIST CSF 2.0</text>
+  </g>
+
+  <g class="floating-card-alt" transform="translate(940, 200)">
+    <rect width="180" height="42" rx="10" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+    <circle cx="24" cy="21" r="8" fill="#ec4899" />
+    <text x="42" y="26" class="badge-text" fill="#e2e8f0">Risk Register</text>
+  </g>
+
+  <!-- Left Accent Line -->
+  <rect x="70" y="75" width="6" height="170" rx="3" fill="url(#accentGrad)" filter="url(#glow)" />
+
+  <!-- Main Foreground Content (Title & Subtitle) -->
+  <g transform="translate(96, 0)">
+    <!-- Top Pill Tag -->
+    <g transform="translate(0, 75)">
+      <rect width="280" height="28" rx="14" fill="#312e81" stroke="#6366f1" stroke-width="1" />
+      <text x="14" y="19" class="badge-text" font-size="12">🛡️ GOVERNANCE • RISK • COMPLIANCE</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="155" class="title-text">Awesome GRC</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="195" class="subtitle-text">Curated SaaS Platforms, Enterprise Solutions &amp; Open-Source Projects</text>
+    <text x="0" y="225" class="subtitle-text" font-size="15" fill="#64748b">Empowering Security, Risk, Audit &amp; Compliance Engineering Teams</text>
+  </g>
+</svg>
