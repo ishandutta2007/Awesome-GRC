@@ -60,48 +60,48 @@ The table below summarizes leading SaaS/hosted GRC platforms, sorted by estimate
 
 ## 🔓 Open-Source GitHub Projects
 
-Open-source GRC software provides transparent, self-hosted, and customizable solutions for teams looking to avoid vendor lock-in. Below is a list of top open-source projects, sorted by **GitHub Star Count (descending)**:
+Open-source GRC software provides transparent, self-hosted, and customizable solutions for teams looking to avoid vendor lock-in. Below is a list of top open-source projects, sorted by **GitHub Stars_Count (descending)**:
 
-1. 🛡️ **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social)](https://github.com/wazuh/wazuh/stargazers)  
+1. 🛡️ **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social)](https://github.com/wazuh/wazuh/stargazers)  
    *Open-source security monitoring, SIEM, vulnerability detection, and regulatory compliance manager (PCI-DSS, NIST SP 800-53, CIS).*
 
-2. 🔍 **[Lynis](https://github.com/CISOfy/lynis)** [![GitHub stars](https://img.shields.io/github/stars/CISOfy/lynis?style=social)](https://github.com/CISOfy/lynis/stargazers)  
+2. 🔍 **[Lynis](https://github.com/CISOfy/lynis)** [![GitHub_Stars](https://img.shields.io/github/stars/CISOfy/lynis?style=social)](https://github.com/CISOfy/lynis/stargazers)  
    *Security auditing tool, compliance testing engine, and system hardening auditor for Unix, Linux, and macOS environments.*
 
-3. ☁️ **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social)](https://github.com/prowler-cloud/prowler/stargazers)  
+3. ☁️ **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub_Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social)](https://github.com/prowler-cloud/prowler/stargazers)  
    *Multi-cloud security assessment, continuous auditing, and compliance framework scanner for AWS, Azure, GCP, and Kubernetes.*
 
-4. ⚙️ **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social)](https://github.com/open-policy-agent/opa/stargazers)  
+4. ⚙️ **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** [![GitHub_Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social)](https://github.com/open-policy-agent/opa/stargazers)  
    *General-purpose policy engine enabling unified policy-as-code enforcement, authorization, and governance across cloud-native stacks.*
 
-5. 🏗️ **[Checkov](https://github.com/bridgecrewio/checkov)** [![GitHub stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social)](https://github.com/bridgecrewio/checkov/stargazers)  
+5. 🏗️ **[Checkov](https://github.com/bridgecrewio/checkov)** [![GitHub_Stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social)](https://github.com/bridgecrewio/checkov/stargazers)  
    *Static code analysis tool for Infrastructure as Code (IaC) compliance scanning (Terraform, CloudFormation, Kubernetes, Helm).*
 
-6. ☁️ **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
+6. ☁️ **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub_Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
    *Rules engine for unifying cloud security, real-time policy enforcement, cost optimization, and regulatory compliance.*
 
-7. 🐞 **[DefectDojo](https://github.com/DefectDojo/django-DefectDojo)** [![GitHub stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=social)](https://github.com/DefectDojo/django-DefectDojo/stargazers)  
+7. 🐞 **[DefectDojo](https://github.com/DefectDojo/django-DefectDojo)** [![GitHub_Stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=social)](https://github.com/DefectDojo/django-DefectDojo/stargazers)  
    *DevSecOps vulnerability management, risk tracking platform, and security compliance reporting web application.*
 
-8. 👔 **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** [![GitHub stars](https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social)](https://github.com/intuitem/ciso-assistant-community/stargazers)  
+8. 👔 **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** [![GitHub_Stars](https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social)](https://github.com/intuitem/ciso-assistant-community/stargazers)  
    *Modern open-source GRC platform supporting multi-framework compliance, cybersecurity risk registers, and automated control mapping.*
 
-9. 📜 **[ComplianceAsCode](https://github.com/ComplianceAsCode/content)** [![GitHub stars](https://img.shields.io/github/stars/ComplianceAsCode/content?style=social)](https://github.com/ComplianceAsCode/content/stargazers)  
+9. 📜 **[ComplianceAsCode](https://github.com/ComplianceAsCode/content)** [![GitHub_Stars](https://img.shields.io/github/stars/ComplianceAsCode/content?style=social)](https://github.com/ComplianceAsCode/content/stargazers)  
    *Security compliance content, SCAP policy catalogs, and automated remediation content for NIST, CIS, PCI-DSS, and DISA-STIG.*
 
-10. 📝 **[Comply](https://github.com/strongdm/comply)** [![GitHub stars](https://img.shields.io/github/stars/strongdm/comply?style=social)](https://github.com/strongdm/comply/stargazers)  
+10. 📝 **[Comply](https://github.com/strongdm/comply)** [![GitHub_Stars](https://img.shields.io/github/stars/strongdm/comply?style=social)](https://github.com/strongdm/comply/stargazers)  
     *SOC 2 compliance automation framework, markdown policy-as-code manager, and audit document generator.*
 
-11. 🔒 **[Probo](https://github.com/getprobo/probo)** [![GitHub stars](https://img.shields.io/github/stars/getprobo/probo?style=social)](https://github.com/getprobo/probo/stargazers)  
+11. 🔒 **[Probo](https://github.com/getprobo/probo)** [![GitHub_Stars](https://img.shields.io/github/stars/getprobo/probo?style=social)](https://github.com/getprobo/probo/stargazers)  
     *Open-source compliance automation framework for SOC 2 Type II and ISO 27001 designed for modern dev teams.*
 
-12. 📊 **[SimpleRisk](https://github.com/simplerisk/toof)** [![GitHub stars](https://img.shields.io/github/stars/simplerisk/toof?style=social)](https://github.com/simplerisk/toof/stargazers)  
+12. 📊 **[SimpleRisk](https://github.com/simplerisk/toof)** [![GitHub_Stars](https://img.shields.io/github/stars/simplerisk/toof?style=social)](https://github.com/simplerisk/toof/stargazers)  
     *Enterprise risk management (ERM) platform focusing on risk registers, risk scoring algorithms, assessments, and mitigations.*
 
-13. 🏢 **[Eramba](https://github.com/eramba/eramba)** [![GitHub stars](https://img.shields.io/github/stars/eramba/eramba?style=social)](https://github.com/eramba/eramba/stargazers)  
+13. 🏢 **[Eramba](https://github.com/eramba/eramba)** [![GitHub_Stars](https://img.shields.io/github/stars/eramba/eramba?style=social)](https://github.com/eramba/eramba/stargazers)  
     *Long-standing open-source enterprise GRC suite covering risk management, compliance controls, internal audits, and policy management.*
 
-14. 🌐 **[OpenGRC](https://github.com/LeeMangold/OpenGRC)** [![GitHub stars](https://img.shields.io/github/stars/LeeMangold/OpenGRC?style=social)](https://github.com/LeeMangold/OpenGRC/stargazers)  
+14. 🌐 **[OpenGRC](https://github.com/LeeMangold/OpenGRC)** [![GitHub_Stars](https://img.shields.io/github/stars/LeeMangold/OpenGRC?style=social)](https://github.com/LeeMangold/OpenGRC/stargazers)  
     *Lightweight open-source cyber GRC web application tailored for small to mid-sized security and compliance programs.*
 
 ---
@@ -133,7 +133,7 @@ Contributions are welcome! To contribute to this curated list:
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/Update** entries in `README.md` following the table or list structure.
-3. 🔍 Ensure descriptions are factual, links point to official repositories/websites, and star counts/pricing details are verified.
+3. 🔍 Ensure descriptions are factual, links point to official repositories/websites, and Stars_Counts/pricing details are verified.
 4. 🚀 Open a **Pull Request (PR)** with a clear summary of your changes.
 
 Check out the master repository collection at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
